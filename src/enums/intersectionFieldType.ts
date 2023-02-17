@@ -1,0 +1,32 @@
+export enum IntersectionFieldType {
+  string = 'string',
+  people = 'people',
+  timestamp = 'timestamp',
+  json = 'json',
+  number = 'number',
+  checkbox = 'checkbox',
+  string_array = 'string_array',
+  multi_select = 'multi_select',
+  url = 'url',
+  select = 'select',
+  title = 'title',
+  rich_text = 'rich_text',
+  relation = 'relation',
+  formula = 'formula',
+  lookup = 'lookup',
+  attachment = 'attachment',
+  object_id = 'object_id',
+  files = 'files',
+  single_relation = 'single_relation', // special airtable type -- pulls only the first relation id
+  phone_number = 'phone_number',
+  email = 'email',
+  single_lookup = 'single_lookup', // special airtable type -- pulls only the first lookup value
+  last_edited_time = 'last_edited_time',
+  created_time = 'created_time',
+  notion_formula = 'notion_formula',
+  people_email = 'people_email', // special notion type -- pulls only the email from a people field
+  single_people_email = 'single_people_email', // special notion type -- pulls only one email from a people field
+  people_notion_id = 'people_notion_id', // special notion type -- pulls only the id from a people field
+  person = 'person', // a more complex person object, _id from the userIntersectionMapping is stored
+  status = 'status',
+}
