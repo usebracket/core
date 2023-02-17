@@ -29,4 +29,5 @@ export enum IntersectionFieldType {
   people_notion_id = 'people_notion_id', // special notion type -- pulls only the id from a people field
   person = 'person', // a more complex person object, _id from the userIntersectionMapping is stored
   status = 'status',
+  non_selected = 'non_selected',
 }
