@@ -4,6 +4,9 @@
   "description": "This repo contains all @bracket constatnts, types, enums and a lot of helper functions for development",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rimraf lib && npx tsc",
