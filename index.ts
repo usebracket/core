@@ -1,1 +1,3 @@
-export * from './src/enums';
+import { IntersectionFieldType } from './src/enums';
+
+export { IntersectionFieldType };
