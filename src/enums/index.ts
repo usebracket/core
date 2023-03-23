@@ -31,3 +31,17 @@ export enum TableOptions {
   CREATE_TABLE = '1',
   USE_EXISTING_TABLE = '2',
 }
+
+export enum DataSourceType {
+  airtable = 'airtable',
+  bigquery = 'bigquery',
+  dynamodb = 'dynamodb',
+  firebase = 'firebase',
+  firestore = 'firestore',
+  gsheet = 'gsheet',
+  mongodb = 'mongodb',
+  mysql = 'mysql',
+  notion = 'notion',
+  postgres = 'postgres',
+  snowflake = 'snowflake',
+}
