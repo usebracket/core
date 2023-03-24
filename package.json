@@ -1,6 +1,6 @@
 {
   "name": "@bracket-eng/core",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "This repo contains @bracket constants, types, enums and helper functions for development",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
