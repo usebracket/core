@@ -34,6 +34,7 @@ export enum TableOptions {
 
 export enum DataSourceType {
   airtable = 'airtable',
+  all = 'all',
   bigquery = 'bigquery',
   dynamodb = 'dynamodb',
   firebase = 'firebase',
