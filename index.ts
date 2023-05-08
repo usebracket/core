@@ -7,6 +7,7 @@ import {
   TableOptions,
   SecurityPolicy,
   DataSourceType,
+  Env,
 } from './src/enums';
 import { AirtableTypes } from './src/types/data-sources/AirtableTypes';
 
@@ -17,4 +18,5 @@ export {
   SyncStrategy,
   TableOptions,
   SecurityPolicy,
+  Env,
 };
