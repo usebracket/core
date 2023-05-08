@@ -46,3 +46,9 @@ export enum DataSourceType {
   postgres = 'postgres',
   snowflake = 'snowflake',
 }
+
+export enum Env {
+  dev = 'dev',
+  stg = 'stg',
+  prd = 'prd',
+}
