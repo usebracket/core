@@ -40,6 +40,7 @@ export enum DataSourceType {
   firebase = 'firebase',
   firestore = 'firestore',
   gsheet = 'gsheet',
+  merge = 'merge',
   mongodb = 'mongodb',
   mysql = 'mysql',
   notion = 'notion',
