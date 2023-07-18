@@ -46,6 +46,7 @@ export enum DataSourceType {
   notion = 'notion',
   postgres = 'postgres',
   snowflake = 'snowflake',
+  vessel = 'vessel',
 }
 
 export enum Env {
