@@ -1,4 +1,2 @@
-import { AirtableTypes } from './AirtableTypes';
-import { NotionTypes } from './NotionTypes';
-
-export { AirtableTypes, NotionTypes };
+export * from './AirtableTypes';
+export * from './NotionTypes';
