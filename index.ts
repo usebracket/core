@@ -1,22 +1,9 @@
 import {
-  IntersectionFieldType,
-  MutationType,
-  Host,
-  SyncDirection,
-  SyncStrategy,
-  TableOptions,
-  SecurityPolicy,
-  DataSourceType,
-  Env,
-} from './src/enums';
-import { AirtableTypes } from './src/types/data-sources/AirtableTypes';
+  AirtableTypes,
+} from './src/types/data-sources/AirtableTypes';
 
+export * from './src/enums';
+export * from './src/constants';
 export {
-  IntersectionFieldType, AirtableTypes, MutationType,
-  Host, DataSourceType,
-  SyncDirection,
-  SyncStrategy,
-  TableOptions,
-  SecurityPolicy,
-  Env,
+  AirtableTypes,
 };
