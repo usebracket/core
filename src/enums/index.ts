@@ -9,6 +9,7 @@ export enum SyncStrategy {
   iterative = 'iterative',
   asynchronous = 'asynchronous',
   stream = 'stream',
+  event_driven = 'event_driven',
 }
 
 export enum MutationType {
